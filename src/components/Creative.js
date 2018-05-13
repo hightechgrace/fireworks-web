@@ -17,7 +17,7 @@ class Home extends Component {
                             <div className="uk-width-1-4@m">
                                 <h4>Creative</h4>
 
-                                <div className="uk-card uk-light uk-card-default uk-card-body uk-margin-large-top uk-text-left" style={{ backgroundColor: '#000' }}>
+                                <div className="uk-card uk-light uk-card-default uk-card-body uk-margin-large-top uk-text-left black-bg">
                                     <h3>Creative <br />
                                         Contents that work</h3>
                                 </div>
@@ -33,8 +33,8 @@ class Home extends Component {
 
                         <h3>
                             Our goal is to create content that works. Our team of creatives (writers, designers, art directors, editors, animators, directors and producers) all work together to produce quality content for every digital platform.</h3>
-                        <div className='uk-margins' style={{ width: '10%', borderBottom: '3px solid #FF3860' }}></div>
-                        <button className="uk-margin-top uk-button uk-button-large uk-text-capitalize uk-light" style={{ backgroundColor: '#000' }}>Explore</button>
+                        <div className='uk-margins red-bar'></div>
+                        <button className="uk-margin-top uk-button uk-button-large uk-text-capitalize uk-light black-btn">Explore</button>
 
                     </div>
                 </div>
@@ -50,13 +50,13 @@ class Home extends Component {
                                     <div className="uk-margin-top">
                                         <h6 className="">FIRE FESTIVAL</h6>
                                         <h4>How we delivered Africa’s First Coachella and the amazing experience it turned out to be</h4>
-                                        
+
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="uk-card ">
-                                    
+
                                     <div className="uk-card-media-top">
                                         <img src={ymca} alt="" />
                                     </div>
@@ -69,11 +69,52 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+
+                <div className="uk-section uk-section-muted">
+                    <div className="uk-container">
+                        <h3>Creative Partnerships</h3>
+
+                        <div className="uk-child-width-1-5@s uk-text-center" data-uk-grid>
+                            <div>
+                                <div className="no-shadow uk-card uk-card-default uk-card-body">
+                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
+                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="no-shadow uk-card uk-card-default uk-card-body">
+                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>
+                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="no-shadow uk-card uk-card-default uk-card-body">
+                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
+                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="no-shadow uk-card uk-card-default uk-card-body">
+                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
+                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="no-shadow uk-card uk-card-default uk-card-body">
+                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
+                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className="uk-section uk-section-large ">
                     <div className="uk-container uk-text-center">
-                        <h1 className='uk-heading-primary'> Starting a new project?</h1>
-                        <p>we would love to help you </p>
-                        <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize uk-light" style={{ backgroundColor: '#000' }}>Lets Talk</button>
+                        <h3 className=''> Strategy</h3>
+                        <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize uk-light" style={{ backgroundColor: '#000' }}>Next</button>
 
                     </div>
                 </div>

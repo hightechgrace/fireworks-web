@@ -11,7 +11,7 @@ class App extends Component {
             <source src={vid} type="video/mp4" />
           </video>
           <div class="uk-overlay uk-dark uk-position-center">
-            <img style={{ marginRight: 'auto', marginLeft: 'auto', display: 'block' }} src={logo} width='400' />
+            <img className='app-logo' src={logo} width='400' />
 
             <h3 className='uk-text-center'>By combining Storytelling (the oldest form of communication) and <br />
               Technology (the art, craft and skills of using science to solve problems) <br />

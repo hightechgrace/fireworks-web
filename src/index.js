@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Creative from './components/Creative';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import '../src/custom.css'
 UIkit.use(Icons);
 
 const Fireworks = () => {

@@ -27,20 +27,20 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="uk-section uk-section-secondary uk-light">
-                    <div className="uk-container" style={{ minHeight: '80vH' }}>
+                    <div className="uk-container home-view">
                         <h3>OUR BRANDS </h3>
                         <div className="uk-child-width-1-2@m uk-text-center uk-grid-match" data-uk-grid>
                             <div className=''>
                                 <div className="uk-inline" >
                                     <img src={young} alt="" />
                                     <div className=''>
-                                        <div className=" uk-width-medium uk-card uk-card-default uk-padding-small uk-position-center-left uk-text-left" style={{ left: '20px', marginTop: '170px' }}>
+                                        <div className=" uk-width-medium uk-card uk-card-default uk-padding-small uk-position-center-left uk-text-left brand-card">
                                             <div className='uk-padding-small'>
-                                                <img src={young_logo} width='100' />
+                                                <img src={young_logo} width='100' alt=''/>
                                                 <p>news, pop culture and lifestyle magazine. the voice of a movement, expressing the passions and narrative of a generation that refuses to be left behind</p>
 
-                                                <div className='uk-margins' style={{ width: '50%', borderBottom: '3px solid #FF3860' }}></div>
-                                                <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize" style={{ backgroundColor: '#000' }}>Explore</button>
+                                                <div className='uk-margins red-card-bar'></div>
+                                                <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize black-btn">Explore</button>
                                             </div>
                                         </div>
                                     </div>
@@ -52,12 +52,12 @@ class Home extends Component {
                                     <div className="uk-inline" >
                                         <img src={tori} alt="" />
                                         <div>
-                                            <div className=" uk-width-medium uk-card uk-card-default uk-padding-small uk-position-center-left uk-text-left" style={{ left: '20px', marginTop: '170px' }}>
+                                            <div className=" uk-width-medium uk-card uk-card-default uk-padding-small uk-position-center-left uk-text-left brand-card">
                                                 <div className='uk-padding-small'>
-                                                    <img src={tori_logo} width='130' />
+                                                    <img src={tori_logo} width='130' alt=''/>
                                                     <p>toritori tells Nigeria’s story by telling Nigerians’ stories through documentary, articles, videography and photography.<br /><br /><br /><br /></p>
-                                                    <div className='uk-margins' style={{ width: '50%', borderBottom: '3px solid #FF3860' }}></div>
-                                                    <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize" style={{ backgroundColor: '#000' }}>Explore</button>
+                                                    <div className='uk-margins red-card-bar'></div>
+                                                    <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize black-btn">Explore</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -161,7 +161,7 @@ class Home extends Component {
                     <div className="uk-container uk-text-center">
                         <h1 class='uk-heading-primary'> Starting a new project?</h1>
                         <p>we would love to help you </p>
-                        <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize uk-light" style={{ backgroundColor: '#000' }}>Lets Talk</button>
+                        <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize uk-light black-btn">Lets Talk</button>
 
                     </div>
                 </div>

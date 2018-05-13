@@ -1,0 +1,38 @@
+/* Custom Styling */
+.app-logo{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block !important;
+}
+
+.home-view{
+    min-height: 80vH !important;
+}
+
+.brand-card{
+    left: 20px !important;
+    margin-top: 170px !important; 
+}
+
+.black-btn{
+    background-color: #000 !important;
+}
+
+.black-bg{
+    background-color: #000 !important;
+}
+
+.red-card-bar{
+    width: 50% !important;
+    border-bottom: 3px solid #FF3860 !important;
+}
+
+.red-bar{
+    width: 10% !important;
+    border-bottom: 3px solid #FF3860 !important;
+}
+
+.no-shadow{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
