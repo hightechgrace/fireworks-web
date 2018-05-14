@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Nav from './common/Nav'
 import Footer from './common/Footer'
-import creative_bg from '../img/creative_bg.png'
+import creative_bg from '../img/story_bg.png'
 import coachela from '../img/story/coachella.png'
 import ymca from '../img/story/ymca.png'
 
 
-class Creative extends Component {
+class Storytelling extends Component {
     render() {
         return (
             <div>
@@ -15,11 +15,11 @@ class Creative extends Component {
                     <div className="uk-container">
                         <div className="uk-text-center" data-uk-grid>
                             <div className="uk-width-1-4@m">
-                                <h4>Creative</h4>
+                                <h4>Brand Storytelling</h4>
 
                                 <div className="uk-card uk-light uk-card-default uk-card-body uk-margin-large-top uk-text-left black-bg">
-                                    <h3>Creative <br />
-                                        Contents that work</h3>
+                                    <h3>Brand <br/>
+Storytelling</h3>
                                 </div>
                             </div>
                             <div className="uk-width-3-4@m">
@@ -29,7 +29,7 @@ class Creative extends Component {
                                     </div></div>
                             </div>
                         </div>
-                        <h3> Quality Contents that Engages</h3>
+                        <h3>  Narrative Thinking</h3>
 
                         <h3>
                             Our goal is to create content that works. Our team of creatives (writers, designers, art directors, editors, animators, directors and producers) all work together to produce quality content for every digital platform.</h3>
@@ -111,7 +111,7 @@ class Creative extends Component {
                 </div>
                 <div className="uk-section uk-section-large ">
                     <div className="uk-container uk-text-center">
-                        <h3 className=''> Strategy</h3>
+                        <h3 className=''> Digital</h3>
                         <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize uk-light" style={{ backgroundColor: '#000' }}>Next</button>
 
                     </div>
@@ -124,4 +124,4 @@ class Creative extends Component {
     }
 }
 
-export default Creative;
+export default Storytelling;

@@ -9,6 +9,9 @@ import creative from '../img/creative.png'
 import digital from '../img/digital.png'
 import story from '../img/story.png'
 import strategy from '../img/strategy.png'
+import fu from '../img/fu.svg'
+import fs from '../img/fs.svg'
+import fd from '../img/fd.svg'
 
 class Home extends Component {
     render() {
@@ -36,7 +39,7 @@ class Home extends Component {
                                     <div className=''>
                                         <div className=" uk-width-medium uk-card uk-card-default uk-padding-small uk-position-center-left uk-text-left brand-card">
                                             <div className='uk-padding-small'>
-                                                <img src={young_logo} width='100' alt=''/>
+                                                <img src={young_logo} width='100' alt='' />
                                                 <p>news, pop culture and lifestyle magazine. the voice of a movement, expressing the passions and narrative of a generation that refuses to be left behind</p>
 
                                                 <div className='uk-margins red-card-bar'></div>
@@ -54,7 +57,7 @@ class Home extends Component {
                                         <div>
                                             <div className=" uk-width-medium uk-card uk-card-default uk-padding-small uk-position-center-left uk-text-left brand-card">
                                                 <div className='uk-padding-small'>
-                                                    <img src={tori_logo} width='130' alt=''/>
+                                                    <img src={tori_logo} width='130' alt='' />
                                                     <p>toritori tells Nigeria’s story by telling Nigerians’ stories through documentary, articles, videography and photography.<br /><br /><br /><br /></p>
                                                     <div className='uk-margins red-card-bar'></div>
                                                     <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize black-btn">Explore</button>
@@ -64,6 +67,24 @@ class Home extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="uk-section uk-section-large">
+                    <div className="uk-container">
+                        <h3>OUR ARMS </h3>
+                        <div className="uk-child-width-expand@s uk-text-center uk-padding" data-uk-grid>
+                           <div></div>
+                            <div>
+                                <div className="uk-card "><img src={fs} alt='' /></div>
+                            </div>
+                            <div>
+                                <div className="uk-card"><img src={fu} alt='' /></div>
+                            </div>
+                            <div>
+                                <div className="uk-card"><img src={fd} alt='' /></div>
+                            </div>
+                           <div></div>
                         </div>
                     </div>
                 </div>
@@ -159,13 +180,13 @@ class Home extends Component {
                 </div>
                 <div className="uk-section uk-section-large ">
                     <div className="uk-container uk-text-center">
-                        <h1 class='uk-heading-primary'> Starting a new project?</h1>
+                        <h1 className='uk-heading-primary'> Starting a new project?</h1>
                         <p>we would love to help you </p>
                         <button className="uk-margin-top uk-button uk-button-default uk-text-capitalize uk-light black-btn">Lets Talk</button>
 
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         );
     }

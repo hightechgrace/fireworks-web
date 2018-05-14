@@ -22,6 +22,18 @@
     background-color: #000 !important;
 }
 
+.red-btn{
+    background-color: #FF3860 !important;    
+}
+
+.red-bg{
+    background-color: #FF3860 !important;    
+}
+
+.red{
+    color: #FF3860 !important;    
+}
+
 .red-card-bar{
     width: 50% !important;
     border-bottom: 3px solid #FF3860 !important;
