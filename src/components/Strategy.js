@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './common/Nav'
 import Footer from './common/Footer'
-import creative_bg from '../img/strategy_bg.png'
+// import creative_bg from '../img/strategy_bg.png'
 import mag from '../img/story/mag.png'
 import ymca from '../img/story/ymca.png'
 
@@ -25,7 +25,7 @@ class Strategy extends Component {
                             <div className="uk-width-3-4@m">
                                 <div className="uk-card">
                                     <div className="uk-card-media-top">
-                                        <img src={creative_bg} alt="" />
+                                        {/* <img src={creative_bg} alt="" /> */}
                                     </div></div>
                             </div>
                         </div>

@@ -11,11 +11,20 @@
 
 .brand-card{
     left: 20px !important;
-    margin-top: 170px !important; 
+    /* margin-top: 170px !important;  */
+}
+
+.small_txt{
+    font-size:12px !important;
 }
 
 .black-btn{
     background-color: #000 !important;
+}
+
+.white-btn-outline{
+    background-color: transparent !important;
+    border : 1px solid #fff;
 }
 
 .black-bg{
@@ -30,8 +39,19 @@
     background-color: #FF3860 !important;    
 }
 
+.underline{
+    text-decoration: underline !important;
+}
 .red{
     color: #FF3860 !important;    
+}
+
+.white{
+    color: #fff !important;    
+}
+
+.black{
+    color: #000000 !important;    
 }
 
 .red-card-bar{
@@ -39,12 +59,148 @@
     border-bottom: 3px solid #FF3860 !important;
 }
 
+.red-small-bar{
+    width: 15% !important;
+    border-bottom: 5px solid #FF3860 !important;
+}
+
 .red-bar{
     width: 10% !important;
     border-bottom: 3px solid #FF3860 !important;
 }
 
+.red-title-bar{
+    width: 100px !important;
+    border-bottom: 3px solid #FF3860 !important;
+}
+
+.line { display: inline-block; width: 70px; height: 3px; background-color: #FF3860; margin-right: 10px; margin-bottom: 7px; }
+.heading { display: inline-block; }
+
 .no-shadow{
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+
+.home-link{
+    color: #000 !important;
+    text-decoration: none !important;
+    transition: width 1s !important;
+}
+
+.home-link:hover{
+    color: #FF3860 !important;
+    text-decoration: none !important;
+}
+
+
+.home-link:hover:after{
+    border-bottom: 4px solid #FF3860 !important;
+    text-decoration: none !important;
+    width: 100% !important;
+}
+
+
+.home-link:after {
+    content: "";
+    display: block;
+    text-align: center !important;
+
+    width: 70% !important;
+    border-bottom: 4px solid #000 !important;
+}
+
+.home-bg{
+    background: url('../src/img/dots.svg') no-repeat !important;
+}
+
+.brand-bg{
+    background: url('../src/img/black_dots.svg') no-repeat !important;
+    background-color: #000000 !important;
+}
+
+
+.floating{
+    /* width: 800px; */
+height: auto;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+
+.planet1{
+height: auto;
+    -webkit-animation-name: Floatingp;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floatingp1;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+@-webkit-keyframes Floatingp{
+    from {-webkit-transform:translate(0, 0px);}
+    25% {-webkit-transform:translate(15px, 0px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floatingp1{
+    from {-moz-transform:translate(0, 0px);}
+    25% {-moz-transform:translate(15px, 0px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+.planet2{
+    height: auto;
+        -webkit-animation-name: Floatingd;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: ease-in-out;
+        -moz-animation-name: Floatingp2;
+        -moz-animation-duration: 3s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    
+    }
+    
+    @-webkit-keyframes Floatingd{
+        from {-webkit-transform:translate(0, 0px);}
+        55% {-webkit-transform:translate(-45px, 0px);}
+        to {-webkit-transform: translate(0, -0px);    }    
+    }
+        
+    @-moz-keyframes Floatingp2{
+        from {-moz-transform:translate(0, 0px);}
+        55% {-moz-transform:translate(-45px, 0px);}
+        to {-moz-transform: translate(0, -0px);}    
+    }
+/* typewriter */
+

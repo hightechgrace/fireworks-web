@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './common/Nav'
 import Footer from './common/Footer'
-import creative_bg from '../img/creative_bg.png'
+// import creative_bg from '../img/creative_bg.png'
 import coachela from '../img/story/coachella.png'
 import ymca from '../img/story/ymca.png'
 
@@ -13,26 +13,28 @@ class Creative extends Component {
                 <Nav />
                 <div className="uk-section uk-section-large">
                     <div className="uk-container">
-                        <div className="uk-text-center" data-uk-grid>
+                        <div className="uk-text-left" data-uk-grid>
                             <div className="uk-width-1-4@m">
-                                <h4>Creative</h4>
+                                <div className="line"></div>
+                                <h4 className='heading'>Creative</h4>
 
-                                <div className="uk-card uk-light uk-card-default uk-card-body uk-margin-large-top uk-text-left black-bg">
-                                    <h3>Creative <br />
+                                <div className="uk-card uk-light uk-card-default uk-card-body uk-overlay uk-text-left black-bg">
+                                    <h3><span className='red'>Creative</span> <br />
                                         Contents that work</h3>
                                 </div>
                             </div>
                             <div className="uk-width-3-4@m">
                                 <div className="uk-card">
                                     <div className="uk-card-media-top">
-                                        <img src={creative_bg} alt="" />
+                                        {/* <img src={creative_bg} alt="" /> */}
                                     </div></div>
                             </div>
                         </div>
-                        <h3> Quality Contents that Engages</h3>
+                        <div className="line"></div>
+                        <h3 className='heading'> Quality Contents that Engages</h3>
 
-                        <h3>
-                            Our goal is to create content that works. Our team of creatives (writers, designers, art directors, editors, animators, directors and producers) all work together to produce quality content for every digital platform.</h3>
+                        <h5 className='uk-margin-medium-top uk-bold'>
+                            Our goal is to create content that works. Our team of creatives (writers, designers, art directors, editors, animators, directors and producers) all work together to produce quality content for every digital platform.</h5>
                         <div className='uk-margins red-bar'></div>
                         <button className="uk-margin-top uk-button uk-button-large uk-text-capitalize uk-light black-btn">Explore</button>
 
@@ -77,35 +79,35 @@ class Creative extends Component {
                         <div className="uk-child-width-1-5@s uk-text-center" data-uk-grid>
                             <div>
                                 <div className="no-shadow uk-card uk-card-default uk-card-body">
-                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
-                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                    <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>
+                                    <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="no-shadow uk-card uk-card-default uk-card-body">
-                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>
-                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                    <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>
+                                    <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="no-shadow uk-card uk-card-default uk-card-body">
-                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
-                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                    <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>
+                                    <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="no-shadow uk-card uk-card-default uk-card-body">
-                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
-                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                    <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>
+                                    <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="no-shadow uk-card uk-card-default uk-card-body">
-                                <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>                                
-                                <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
+                                    <h5><span data-uk-icon="icon: bolt; ratio: 2"></span></h5>
+                                    <p className='uk-text-small'>We worked with xxx to build an immersive creative experience for the xxx initiative</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>

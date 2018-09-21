@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './common/Nav'
 import Footer from './common/Footer'
-import digital_bg from '../img/digital_bg.png'
+// import digital_bg from '../img/digital_bg.png'
 import coachela from '../img/story/coachella.png'
 import ymca from '../img/story/ymca.png'
 
@@ -25,7 +25,7 @@ Solutions</h3>
                             <div className="uk-width-3-4@m">
                                 <div className="uk-card">
                                     <div className="uk-card-media-top">
-                                        <img src={digital_bg} alt="" />
+                                        {/* <img src={digital_bg} alt="" /> */}
                                     </div></div>
                             </div>
                         </div>
