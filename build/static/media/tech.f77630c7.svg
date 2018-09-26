@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 745 489">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #212121;
+      }
+
+      .cls-3 {
+        fill: #555;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #b4b4b4;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        font-size: 22px;
+        font-family: CamingoCode-Regular, CamingoCode;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="85" height="15"/>
+    </clipPath>
+  </defs>
+  <g id="Group_97" data-name="Group 97" transform="translate(-960 -365)">
+    <rect id="Rectangle_73" data-name="Rectangle 73" class="cls-2" width="745" height="489" transform="translate(960 365)"/>
+    <rect id="Rectangle_74" data-name="Rectangle 74" class="cls-3" width="745" height="41" transform="translate(960 365)"/>
+    <g id="Repeat_Grid_13" data-name="Repeat Grid 13" class="cls-4" transform="translate(971 380)">
+      <g transform="translate(-971 -386)">
+        <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-5" cx="7.5" cy="7.5" r="7.5" transform="translate(971 386)"/>
+      </g>
+      <g transform="translate(-942 -386)">
+        <circle id="Ellipse_3-2" data-name="Ellipse 3" class="cls-5" cx="7.5" cy="7.5" r="7.5" transform="translate(971 386)"/>
+      </g>
+      <g transform="translate(-913 -386)">
+        <circle id="Ellipse_3-3" data-name="Ellipse 3" class="cls-5" cx="7.5" cy="7.5" r="7.5" transform="translate(971 386)"/>
+      </g>
+    </g>
+    <g id="Symbol_2_1" data-name="Symbol 2 – 1" transform="translate(-50)">
+      <text id="_Building_solutions_from_Front-end_Development_Web_Apps_Mobile_Apps_to_digital_marketing_branding_social_media_management_SEO_and_more._We_work_with_our_clients_combining_our_digital_strategy_and_technology_skills_to_get_the_attention_they_dese" data-name="
+
+Building solutions from Front-end Development, 
+Web Apps, Mobile Apps to digital marketing, 
+branding, social media management, SEO and more. 
+
+We work with our clients combining our digital 
+strategy and technology skills to get the attention 
+they dese" class="cls-6" transform="translate(1077 472)"><tspan x="0" y="0"></tspan><tspan x="0" y="29"></tspan><tspan x="0" y="58">Building solutions from Front-end Development, </tspan><tspan x="0" y="87">Web Apps, Mobile Apps to digital marketing, </tspan><tspan x="0" y="116">branding, social media management, SEO and more. </tspan><tspan x="0" y="145"></tspan><tspan x="0" y="174">We work with our clients combining our digital </tspan><tspan x="0" y="203">strategy and technology skills to get the attention </tspan><tspan x="0" y="232">they deserve. </tspan><tspan x="0" y="261"></tspan><tspan x="0" y="290">_</tspan></text>
+    </g>
+  </g>
+</svg>

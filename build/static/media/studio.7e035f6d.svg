@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 741 586.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #212121;
+      }
+
+      .cls-2 {
+        fill: #f64266;
+      }
+
+      .cls-3 {
+        fill: #b4b4b4;
+      }
+
+      .cls-4 {
+        fill: #555;
+      }
+
+      .cls-5, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 22px;
+        font-family: Avenir-Medium, Avenir;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        fill: #ff3860;
+      }
+
+      .cls-7 {
+        font-size: 15px;
+        font-family: Avenir-Heavy, Avenir;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g id="Group_98" data-name="Group 98" transform="translate(-1062 -324)">
+    <g id="television_1_" data-name="television (1)" transform="translate(1062 318)">
+      <rect id="Rectangle_88" data-name="Rectangle 88" class="cls-1" width="741" height="485.483" transform="translate(0 6)"/>
+      <rect id="Rectangle_89" data-name="Rectangle 89" class="cls-2" width="51.103" height="51.103" transform="translate(626.017 57.103)"/>
+      <rect id="Rectangle_90" data-name="Rectangle 90" class="cls-3" width="63.879" height="20" transform="translate(63.879 423.724)"/>
+      <path id="Path_226" data-name="Path 226" class="cls-1" d="M136.983,107.879V44h-51.1v63.879H22v38.328H200.862V107.879Z" transform="translate(259.069 446.483)"/>
+      <rect id="Rectangle_91" data-name="Rectangle 91" class="cls-4" width="498.259" height="20" transform="translate(178.862 423.724)"/>
+    </g>
+    <g id="Symbol_3_1" data-name="Symbol 3 – 1">
+      <text id="Fireworks_Studios_is_the_creative_and_storytelling_arm_of_Fireworks._From_feature_films_to_branded_ad_features_our_talented_team_of_writers_directors_editors_craft_compelling_narratives_for_branded_content_for_users_to_engage_and_enjoy._" data-name="Fireworks Studios is the creative and storytelling 
+arm of Fireworks. 
+
+From feature films to branded ad features, our 
+talented team of writers, directors, editors craft 
+compelling narratives for branded content for users 
+to engage and enjoy.
+" class="cls-5" transform="translate(1120 503)"><tspan x="0" y="0">Fireworks Studios is the creative and storytelling </tspan><tspan x="0" y="30">arm of Fireworks. </tspan><tspan x="0" y="60"></tspan><tspan x="0" y="90">From feature films to branded ad features, our </tspan><tspan x="0" y="120">talented team of writers, directors, editors craft </tspan><tspan x="0" y="150">compelling narratives for branded content for users </tspan><tspan x="0" y="180">to engage and enjoy.</tspan><tspan x="0" y="210"></tspan></text>
+    </g>
+    <rect id="Rectangle_87" data-name="Rectangle 87" class="cls-6" width="52" height="27" transform="translate(1062 375)"/>
+    <g id="Symbol_4_1" data-name="Symbol 4 – 1">
+      <text id="LIVE" class="cls-7" transform="translate(1073 395)"><tspan x="0" y="0">LIVE</tspan></text>
+    </g>
+  </g>
+</svg>
