@@ -23,7 +23,7 @@ export default class Footer extends Component {
                     <div>
                         <div className='uk-text-left'>
                             <h3>Start a conversation</h3>
-                            <h5>hello@fireworks.com.ng
+                            <h5><a href='mailto:hello@fireworks.com.ng'>hello@fireworks.com.ng</a>
                                 <br />
                                 <br />
                                 +234 80 999 999 999
@@ -33,9 +33,11 @@ export default class Footer extends Component {
                     <div>
                         <div className='uk-text-left'>
                             <h3>Social</h3>
-                            <h5>facebook <br/>
-                                    twitter<br/>
-                                    instagram</h5>
+                            <h5><a href='https://www.facebook.com/FireworksHQTRS/' target='blank_' className='white '>Facebook</a> <br/>
+                            <a href='https://twitter.com/FireworksHQ' target='blank_' className='white '>Twitter</a><br/>
+                            <a href='https://www.instagram.com/fireworkshq/' target='blank_' className='white '>Instagram</a></h5>
+
+
                             
                         </div>
                     </div>
