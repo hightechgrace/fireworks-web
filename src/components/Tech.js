@@ -45,15 +45,19 @@ class Tech extends Component {
                             <div className="uk-inline">
                                 <img src={tartan} alt="" />
                                 <div className="uk-overlay uk-light uk-position-top">
-                                    <h2>Tartan</h2>
-                                    <p className='white uk-hidden@m'>Branding<br /> UI/UX Design<br />Web Development</p>
+                                    <h2 className='white uk-visible@m'>Tartan</h2>
+                                    <h4 className='white uk-hidden@m'>Tartan</h4>
+                                    <p className='white uk-visible@m'>Branding<br /> UI/UX Design<br />Web Development</p>
+                                    <p className='white uk-hidden@m small_txt'>Branding<br /> UI/UX Design<br />Web</p>
                                 </div>
                             </div>
                             <div className="uk-inline">
                                 <img src={doelle} alt="" />
                                 <div className="uk-overlay uk-light uk-position-top">
-                                    <h2>Doelle</h2>
-                                    <p className='white uk-hidden@m'>Branding<br /> UI/UX Design<br />Web Development</p>
+                                    <h2 className='white uk-visible@m'>Doelle</h2>
+                                    <h4 className='white uk-hidden@m uk-remove-margin'>Doelle</h4>
+                                    <p className='white uk-visible@m'>Branding<br /> UI/UX Design<br />Web Development</p>
+                                    <p className='white uk-hidden@m small_txt'>Branding<br /> UI/UX Design<br />Web Development</p>
                                 </div>
                             </div>
                         </div>
