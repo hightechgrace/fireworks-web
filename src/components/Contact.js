@@ -20,7 +20,7 @@ for a creative and digital partner </h1><br/>
 <br/>
 <h3>we would love to hear from you<br/>
 
-say <a className='underline red' href = 'mailto:hello@fireworks.com.ng'>hello@fireworks.com.ng</a>  <br/>or if you want to speak with us on phone call <span className='underline red'>+234 8099 999 999</span></h3>
+say <a className='underline red' href = 'mailto:hello@fireworks.com.ng'>hello@fireworks.com.ng</a>  <br/>or if you want to speak with us on phone call <span className='underline red'>+234 8152 259 901</span></h3>
                         </div>
                     </div>
                 </div>

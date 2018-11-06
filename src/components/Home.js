@@ -35,10 +35,12 @@ class Home extends Component {
                     <div className="uk-container uk-container-large uk-margin-left uk-margin-right">
                         <div className="uk-dark uk-position-center-left uk-margin-large-left">
                             <Typing speed={50}>
-                            <h1 className='uk-text-left uk-heading-primary' style={{ fontSize: '70px' }}>We are creative digital agency<br/> that combines <span className='underline red'>storytelling</span> and <br/> <span className='underline red'>technology</span> to give meaningful<br/> experiences </h1>
+                            <h1 className='uk-text-left uk-heading-primary' style={{ fontSize: '70px', textDecoration: 'none', minHeight:'160px'}}>
+                            Meaningful experiences using<br/> 
+                            <span className='underline red'> Storytelling</span> and  <span className='underline red'>Technology</span> </h1>
                                 
-                                <h3 className='red'>we are a digital media company</h3>
                             </Typing>
+                            <h3 className='black medium_txt uk-margin-large-top'>Fireworks is a creative digital media company that creates meaningful experiences <br/> for brands and businesses by combining storytelling and technology. <br/>We are a family of designers, developers, content creators and strategists.</h3>
                         </div>
                     </div>
                 </div>
@@ -46,9 +48,12 @@ class Home extends Component {
                     <div className="uk-container uk-container-large uk-margin-left uk-margin-right">
                         <div className="uk-dark uk-position-center-left uk-margin-large-left">
                             <Typing speed={50}>
-                                <h1 className='uk-text-left uk-heading-primary' style={{ fontSize: '30px' }}>We are creative digital agency that combines <span className='underline red'>storytelling</span> and <br/> <span className='underline red'>technology</span> to give meaningful<br/> experiences </h1>
-                                <h6 className='red'>we are a digital media company</h6>
+                                {/* <h1 className='uk-text-left uk-heading-primary' style={{ fontSize: '30px' }}>We are creative digital agency that combines <span className='underline red'>storytelling</span> and <br/> <span className='underline red'>technology</span> to give meaningful<br/> experiences </h1> */}
+                                <h1 className='uk-text-left uk-heading-primary' style={{ fontSize: '40px', textDecoration: 'none', minHeight:'220px'}}>
+                            Meaningful experiences using<br/> 
+                            <span className='underline red'> Storytelling</span> and  <span className='underline red'>Technology</span> </h1>
                             </Typing>
+                            <h6 className='black mid_txt uk-margin-large-top'>Fireworks is a creative digital media<br/> company  that creates meaningful <br/>experiences  for brands and businesses<br/> by combining storytelling and technology. <br/>We are a family of designers, developers,<br/> content creators and strategists.</h6>
                         </div>
                     </div>
                 </div>
@@ -57,7 +62,7 @@ class Home extends Component {
                     <div className="uk-container uk-margin-large-top uk-margin-large-bottom" style={{ paddingTop: '20px', paddingBottom: '150px' }}>
                         <img className='uk-visible@m floating uk-align-right' src={astro} width='550px' style={{ marginTop: '-600px' }} />
                         <img className='uk-hidden@m floating uk-align-right' src={astro} width='350px' style={{ marginTop: '-350px' }} />
-                        <h4><span><img src={bar} alt='' width='80' /></span> OUR BRANDS</h4>
+                        <h4><span><img src={bar} alt='' width='80' /></span> OUR MEDIA BRANDS</h4>
                         <div className="uk-visible@m uk-child-width-1-3@m uk-text-center uk-grid-match" data-uk-grid>
                             <div className=''>
                                 <div className="uk-inline">
@@ -223,7 +228,7 @@ class Home extends Component {
                 <div className="uk-section uk-section-large">
                     <div className="uk-container">
                         <div className="line"></div>
-                        <h4 className='heading'>SERVICES </h4>
+                        <h4 className='heading'>OUR SERVICES </h4>
 
 
                         <div className="uk-margin-xlarge-top uk-child-width-1-4@m  uk-text-center" data-uk-grid>
@@ -305,7 +310,11 @@ class Home extends Component {
 
                         <h3>
                             Wanna get the inside scoop? <br /> <br />
-                            Follow us on <a href='https://www.facebook.com/FireworksHQTRS/' target='blank_' className='red underline'>Facebook</a>, <a href='https://twitter.com/FireworksHQ' target='blank_' className='red underline'>Twitter</a> and <a href='https://www.instagram.com/fireworkshq/' target='blank_' className='red underline'>Instagram</a> to get <br />
+                            Follow us on <a href='https://www.facebook.com/FireworksHQTRS/' target='blank_' className='red underline'>Facebook</a> , 
+                            <a href='https://twitter.com/FireworksHQ' target='blank_' className='red underline'>Twitter</a> , 
+                            <a href='https://www.instagram.com/fireworkshq/' target='blank_' className='red underline'>Instagram</a> , 
+                            <a href='https://www.youtube.com/channel/UCVaJ3TYB_Whl4yV40OLzqdg' target='blank_' className='red underline'>Youtube </a>  
+                            and <a href='https://www.linkedin.com/company/fireworkshq/' target='blank_' className='red underline'>LinkedIn</a> to get <br />
                             more information and inside details from us
                         </h3>
                          </div>

@@ -18,6 +18,15 @@
     font-size:12px !important;
 }
 
+.medium_txt{
+    font-size:18px !important;
+}
+
+.mid_txt{
+    font-size:15px !important;
+    font-weight: 300 !important;
+}
+
 .black-btn{
     background-color: #000 !important;
 }

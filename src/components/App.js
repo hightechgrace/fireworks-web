@@ -15,7 +15,7 @@ class App extends Component {
               <img className='floating' src={astro} width='350px' />
               <img className='floating planet1 uk-margin-xlarge-top' src={Planet2} width='40' />
               <h5 className='uk-text-center'>We combine <span className='red underline'>Storytelling</span>  and <span className='red underline'>Technology</span> <br />
-                to create <span className='red underline'>meaningful experiences</span> for brands.<br /> </h5>
+                to create <span className='red underline'>meaningful experiences</span> for brands and businesses.<br /> </h5>
               <div className="uk-flex uk-flex-center">
                 <div>
                   <h5 className='uk-text-center uk-margin-small-top'><a className='home-link' href='/home'>Enter Site</a></h5>
@@ -30,7 +30,7 @@ class App extends Component {
               <img className='app-logo' src={logo} width='120' />
               <img className='floating' src={astro} width='250px' />
               <h5 className='uk-text-center'>We combine <span className='red underline'>Storytelling</span>  and <span className='red underline'>Technology</span> <br />
-                to create <span className='red underline'>meaningful experiences</span> for brands.<br /> </h5>
+                to create <span className='red underline'>meaningful experiences</span> for brands and businesses.<br /> </h5>
               <div className="uk-flex uk-flex-center">
                 <div>
                   <h5 className='uk-text-center uk-margin-small-top'><a className='home-link' href='/home'>Enter Site</a></h5>
