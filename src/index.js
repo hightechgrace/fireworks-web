@@ -11,9 +11,15 @@ import Studio from './components/Studio';
 import About from './components/About';
 import Contact from './components/Contact';
 import Work from './components/Work';
+import YoungHome from './components/young/Index';
+import Tori from './components/young/Tori';
+import Pop from './components/young/Pop';
+import Cafe from './components/young/Cafe';
+import Campfire from './components/Campfire';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import '../src/custom.css'
+import '../src/young.css'
 UIkit.use(Icons);
 
 const Fireworks = () => {
@@ -29,6 +35,11 @@ const Fireworks = () => {
                 <Route exact path="/about" component={About} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/work" component={Work} />
+                <Route exact path="/young" component={YoungHome} />
+                <Route exact path="/tori" component={Tori} />
+                <Route exact path="/pop" component={Pop} />
+                <Route exact path="/cafe" component={Cafe} />
+                <Route exact path="/campfire" component={Campfire} />
             </Switch>
         </div>
     </Router>)

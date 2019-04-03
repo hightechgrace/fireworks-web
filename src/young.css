@@ -1,0 +1,46 @@
+.uk-overlay-primary{
+    background: rgba(0, 0, 0, 0.15) !important;
+  }
+.logo{
+    width: 496px;
+}
+
+.black-txt{
+    background-color: #000000 !important;
+}
+
+.header-hr {
+    border: 2px solid #000000;
+    width: 50px;
+    margin:auto;
+  }
+
+.footer-input{
+    background-color: #fff !important;
+    color: #3d3d3d !important;
+}
+
+.footer-input::placeholder
+{
+    color: #3d3d3d !important;
+    font-size: 0.8em !important;    
+}
+.footer-btn{
+    background-color: #00B1FF !important;
+    color: #ffffff !important;
+}
+
+.footer-btn:hover{
+    /* background-color: #fff !important; */
+    color: #000000 !important;
+}
+
+.footer-logo{
+    width: 50px;
+    height: 20px;
+}
+
+
+/* .blacks{
+    background-color: #000000;
+} */
