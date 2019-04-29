@@ -15,6 +15,8 @@ import YoungHome from './components/young/Index';
 import Tori from './components/young/Tori';
 import Pop from './components/young/Pop';
 import Cafe from './components/young/Cafe';
+import Waves from './components/young/Waves';
+import Reactions from './components/young/Reactions';
 import Campfire from './components/Campfire';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -39,6 +41,8 @@ const Fireworks = () => {
                 <Route exact path="/tori" component={Tori} />
                 <Route exact path="/pop" component={Pop} />
                 <Route exact path="/cafe" component={Cafe} />
+                <Route exact path="/waves" component={Waves} />
+                <Route exact path="/reactions" component={Reactions} />
                 <Route exact path="/campfire" component={Campfire} />
             </Switch>
         </div>

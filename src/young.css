@@ -1,6 +1,11 @@
 .uk-overlay-primary{
     background: rgba(0, 0, 0, 0.15) !important;
   }
+
+  .uk-overlay-primary-foot{
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: #fff !important;
+  }
 .logo{
     width: 496px;
 }
