@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import UIkit from 'uikit';
 import style from 'uikit/dist/css/uikit.css'
 import Icons from 'uikit/dist/js/uikit-icons';
+import Grid from 'uikit/dist/js/components/grid-parallax';
 import App from './components/App';
 import Home from './components/Home';
 import Video from './components/Video';
@@ -18,6 +19,11 @@ import Cafe from './components/young/Cafe';
 import Waves from './components/young/Waves';
 import Reactions from './components/young/Reactions';
 import Campfire from './components/Campfire';
+import Creative from './components/Creative';
+import Media from './components/Media';
+import Firex from './components/Firex';
+import Fireworksu from './components/Fireworksu';
+import Zinox from './components/work/Zinox';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import '../src/custom.css'
@@ -30,6 +36,10 @@ const Fireworks = () => {
         <div>
             <Switch>
                 <Route exact path="/" component={App} />
+                <Route exact path="/creative" component={Creative} />
+                <Route exact path="/media" component={Media} />
+                <Route exact path="/firex" component={Firex} />
+                <Route exact path="/fireworksu" component={Fireworksu} />
                 <Route exact path="/home" component={Home} />
                 <Route exact path="/tech" component={Tech} />
                 <Route exact path="/studio" component={Studio} />
@@ -44,6 +54,7 @@ const Fireworks = () => {
                 <Route exact path="/waves" component={Waves} />
                 <Route exact path="/reactions" component={Reactions} />
                 <Route exact path="/campfire" component={Campfire} />
+                <Route exact path="/work/zinox" component={Zinox} />
             </Switch>
         </div>
     </Router>)

@@ -1,30 +1,59 @@
 import React, { Component } from 'react';
 import Nav from './common/Nav'
-import Footer from './common/Footer'
-import bar from '../img/bar.svg'
+import Footer from './common/NewFooter'
+import about from '../img/about_bg.png'
+import contact_elements from '../img/contact_elements.svg';
+import Doelle from '../img/doelle_product_1.png';
 
 
 class Contact extends Component {
     render() {
         return (
-            <div className='uk-animation-fade'>
-                <Nav />
-                <div className="uk-section " data-uk-height-viewport>
-                    <div className="uk-container uk-margin-left uk-margin-right">
-                        <div className="uk-dark uk-position-center-left uk-margin-large-left">
-                        <h4><span><img src={bar} alt='' width='80' /></span> CONTACT</h4>
+            <div>
+                <Nav/>
+                <section className='uk-section-white uk-section-small fwk-home-section' style={{ paddingRight: '0' }}>
+                    <div className="uk-container uk-container-xlarge" style={{ paddingRight: '0', marginRight: '0' }}>
+                        <div className="uk-flex-middle" data-uk-grid>
+                            <div className="uk-width-3-5@m uk-flex-first">
+                                <div><h6 style={{ letterSpacing: '5px', marginLeft: '-50px' }}>TALK TO US</h6></div>
+                                <h1 className='header-txt'>Starting a new <br />
+                                    project or looking <br />
+                                    for a creative <br />
+                                    partner</h1>
+                                <p>Tell us about your next project</p>
+                                <h3>Call us on +234 8152 259 901 or say hello@fireworks.com.ng<br /><br />
+                                    Or fill the form below</h3>
+                                <form className='uk-width-2-3'>
+                                    <fieldset className="uk-fieldset">
+                                        <div className="uk-margin">
+                                            <input className="uk-input fwk-input" type="text" placeholder="Name" />
+                                        </div>
+                                        <div className="uk-margin">
+                                            <input className="uk-input fwk-input" type="text" placeholder="Email" />
+                                        </div>
+                                        <div className="uk-margin">
+                                            <input className="uk-input fwk-input" type="text" placeholder="Company Name" />
+                                        </div>
+                                        <div className="uk-margin">
+                                            <textarea className="uk-textarea fwk-input" rows="8" placeholder="Project Details (Scope, timelines etc) "></textarea>
+                                        </div>
+                            <button class="uk-button uk-button-secondary">Submit</button>
 
 
-                            <h1 className='uk-text-left uk-heading-primary'>Starting a new project or looking <br/>
-for a creative and digital partner </h1><br/>
-<br/>
-<h3>we would love to hear from you<br/>
-
-say <a className='underline red' href = 'mailto:hello@fireworks.com.ng'>hello@fireworks.com.ng</a>  <br/>or if you want to speak with us on phone call <span className='underline red'>+234 8152 259 901</span></h3>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div className="uk-width-2-5@m uk-flex-first">
+                                <img src={about} alt="Image" />
+                                <img className='uk-padding-large' src={contact_elements} alt="Image" />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <Footer/>
+                </section>
+                
+               
+               
+                <Footer />
             </div>
         )
     }

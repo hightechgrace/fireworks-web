@@ -1,119 +1,100 @@
 import React, { Component } from 'react';
 import Nav from './common/Nav'
-import Footer from './common/Footer'
-import fs from '../img/fs.svg'
-import studio from '../img/studio.svg'
-import bar from '../img/bar.svg'
-import sub from '../img/subs.png';
-import ferdy from '../img/ferdy.jpg';
-import cyrus from '../img/cyrus.jpg';
-import akin from '../img/akin.jpg';
-import chude from '../img/chude.jpg';
-import bonfire from '../img/Bonfire.jpg';
+import Footer from './common/NewFooter'
+import studio from '../img/studio_bg.png'
+import studioVideo from '../img/video_studio.png';
+import jarell from '../img/jarell.png';
+import lava from '../img/lava.png';
 
 
-class Tech extends Component {
+class Studio extends Component {
     render() {
         return (
-            <div className='uk-animation-fade'>
-                <Nav />
-                <div className="uk-section uk-section-medium">
-                    <div className="uk-container">
-                        <div className="uk-text-left" data-uk-grid>
-                        <div className="uk-width-1-2@m uk-hidden@m">
-                                <div className="uk-card">
-                                    <div className="uk-card-media-top">
-                                        <img src={studio} alt="" />
-                                    </div></div>
+            <div>
+                <Nav/>
+                <section className='uk-section-white uk-section-small fwk-home-section' style={{ paddingRight: '0' }}>
+                    <div className="uk-container uk-container-xlarge" style={{ paddingRight: '0', marginRight: '0' }}>
+                        <div className="uk-flex-middle" data-uk-grid>
+                            <div className="uk-width-1-3@m uk-flex-first">
+                                <div><h6 style={{ letterSpacing: '5px', marginLeft: '-50px' }}>OUR ARMS</h6></div>
+                                <h1 className='header-txt'>Studio</h1>
                             </div>
-                            <div className="uk-width-1-2@m uk-margin-xlarge-top">
-                                <img className='uk-visible@m' src={fs} alt="" width='400' />
-                                <img className='uk-hidden@m' src={fs} alt="" width='300' />
-                                <p className='black'>Blending creativity, insight and humanity we create <br/>
-high impact storytelling content that works</p>
-                            </div>
-                            <div className="uk-width-1-2@m uk-visible@m">
-                                <div className="uk-card">
-                                    <div className="uk-card-media-top">
-                                        <img src={studio} alt="" />
-                                    </div></div>
+                            <div className="uk-width-2-3@m uk-flex-first">
+                                <img src={studio} alt="Image" />
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="uk-section uk-section-default">
-                    <div className="uk-container">
-                        {/* <h3>Featured Case Studies</h3> */}
-                        <h4><span><img src={bar} alt='' width='80' /></span> SELECTED PROJECTS</h4>
-                        <div className=" uk-child-width-1-2@m" data-uk-grid>
-                        
-                            <a href='/video/chude-jideonwo'>
-                            <div className="uk-inline">
-                                <img src={chude} alt="" />
-                                {/* <div className="uk-overlay uk-light uk-position-top">
-                                    <h3>The Story of Success</h3>
-                                    <p className='white'>Chude Jideonwo</p>
-                                </div> */}
+                </section>
+                <section className='uk-section-white uk-section-small fwk-home-section' >
+                    <div className="uk-container uk-container-xlarge" >
+                        <div className="uk-flex-middle" data-uk-grid>
+                            <div className="uk-width-2-5@m uk-flex-first">
                             </div>
-                            </a>
-                            <a href='/video/ferdy-adimefe'>
-                            <div className="uk-inline">
-                                <img src={ferdy} alt="" />
-                                {/* <div className="uk-overlay uk-light uk-position-top">
-                                    <h2>The Story of Success</h2>
-                                    <p className='white'>Ferdy Adimefe</p>
-                                </div> */}
-                            </div>
-                            </a>
-                            <a href='/video/bonfire'>
-                            <div className="uk-inline">
-                                <img src={bonfire} alt="" />
-                                {/* <div className="uk-overlay uk-light uk-position-top">
-                                    <h2>The Story of Success</h2>
-                                    <p className='white'>Akinlabi Akinbulumo</p>
-                                </div> */}
-                            </div>
-                           </a>
+                            <div className="uk-width-3-5@m uk-flex-first uk-padding-large uk-padding-remove-vertical uk-padding-remove-right" >
+                                <h2>Telling authentic African stories through film and photography </h2>
+                                <p>Fireworks Studios tells authentic African stories through film and photography.
+                                    We are dedicated to creating and documenting authentic African narratives
+                                    that helps shape the future of our continent.
 
-                            
-                            <a href='/video/akinlabi-akinbulumo'>
-                            <div className="uk-inline">
-                                <img src={akin} alt="" />
-                                {/* <div className="uk-overlay uk-light uk-position-top">
-                                    <h2>The Story of Success</h2>
-                                    <p className='white'>Akinlabi Akinbulumo</p>
-                                </div> */}
+                                    </p>
                             </div>
-</a>
-
-                            <a href='/video/cyrus-agbo'>
-                            <div className="uk-inline">
-                                <img src={cyrus} alt="" />
-                                {/* <div className="uk-overlay uk-light uk-position-top">
-                                    <h2>The Story of Success</h2>
-                                    <p className='white'>Cyrus Agbo</p>
-                                </div> */}
+                        </div>
+                        <div className="uk-flex-middle uk-margin-xlarge-top" data-uk-grid>
+                            <div className="uk-width-1-5@m uk-flex-first">
+                                <div><h6 style={{ letterSpacing: '5px' }}>SERVICES</h6></div>
+                                <ul className="box">
+                                    <li> Photography</li>
+                                    <li>Film</li>
+                                    <li>TV</li>
+                                    <li>Documentaries</li>
+                                    <li>Music videos </li>
+                                    <li>Commercials</li>
+                                </ul>
                             </div>
-</a>
-
+                            <div className="uk-width-4-5@m uk-flex-first uk-padding-large uk-padding-remove-vertical uk-padding-remove-right" >
+                                <a data-uk-toggle="target: #modal-media-youtube"><img width='80%'  src={studioVideo} style={{ marginTop: '100px', marginBottom: '-100px' }} /></a>
+                                <div id="modal-media-youtube" className="uk-flex-top" data-uk-modal>
+                                    <div className="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                        <button className="uk-modal-close-outside" type="button" data-uk-close></button>
+                                        <iframe src="https://www.youtube-nocookie.com/embed/YE7VzlLtp-4" width="560" height="315" frameBorder="0" data-uk-video></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <img  className='floating uk-align-left uk-overlay' src={sub} width='550px' style={{ marginTop: '0px', marginLeft:'-70px' }} />
-
-                <div className="uk-section uk-section-large ">
-                    <div className="uk-container uk-text-center">
-                        <h1 className='uk-heading-primary'> Starting a new project?</h1>
-                        <p>we would love to help you </p>
-                        <a href='/contact' data-uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay:200" className="uk-text-left uk-margin-top uk-button  uk-text-capitalize black-btn red" data-uk-icon="icon: arrow-right; ratio: 1.6"><span className='white'>Lets Talk</span>  </a>
-                        
+                </section>
+                <section className='uk-section-muted uk-section-small fwk-home-section' >
+                    <div className="uk-container uk-container-xlarge" >
+                        <h2 className='uk-margin-large-top fwk-home-h2'>Recent Work.</h2>
+                        <div className="uk-grid-xlarge uk-child-width-1-2@s uk-child-width-1-2@m uk-child-width-1-2@l uk-text-center" data-uk-grid-parallax uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-overlay; delay: 300; repeat: true">
+                            <div className="uk-inline uk-text-left uk-padding-large">
+                                <h1 >Jarell Ebuka</h1>
+                                <p>Music Documentary</p>
+                                <img src={jarell} />
+                            </div>
+                            <div className="uk-inline uk-text-left uk-padding-large">
+                                <h1 >Lava Energy Drink</h1>
+                                <p>Commercial . Photography</p>
+                                <img src={lava} />
+                            </div>
+                        </div>
+                        <div className='uk-margin-xlarge  uk-text-center ' >
+                            <a href=''>View More</a>
+                        </div>
                     </div>
-                </div>
+                </section>
+                <section className='uk-section-secondary uk-section-xlarge fwk-home-section' style={{ backgroundColor: '#171717' }}>
+                    <div className="uk-container uk-container-xlarge" >
+                        <div><h6 style={{ letterSpacing: '5px' }}>WORK WITH US</h6></div>
+                        <h1 className='header-txt uk-margin-large-left'>Ready to launch an idea?</h1>
+                        <h4 className='uk-margin-large-left'>We’re excited to build amazing things with you!<br />
+                            Call us on +234 8152 259 901 or say hello@fireworks.com.ng</h4>
+                        <button className="uk-margin-large-left  uk-button uk-button-primary">Let's Talk</button>
+                    </div>
+                </section>
                 <Footer />
             </div>
-        );
+        )
     }
 }
-
-export default Tech;
+export default Studio;
