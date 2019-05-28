@@ -11,7 +11,7 @@ import tori from '../../img/tori.svg';
 export default class Footer extends Component {
   render() {
     return (
-      <section className='uk-section-secondary uk-section-small fwk-home-section' style={{ backgroundColor: '#000000' }}>
+      <section className='uk-visible@m uk-section-secondary uk-section-small fwk-home-section' style={{ backgroundColor: '#000000' }}>
         <div className="uk-container uk-container-large" >
           <div class="uk-flex uk-flex-center">
             <img className='uk-text-center' src={logo} width='250' />

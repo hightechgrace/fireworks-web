@@ -3,12 +3,20 @@
     font-size: 65px !important;
     font-weight: 600 !important;
 }
+.mobile-header-txt{
+    font-size: 40px !important;
+    font-weight: 600 !important;
+}
 .fwk-home-section{
     padding-left: 150px;
     padding-right: 150px; 
 }
 .fwk-home-h2{
     font-size: 55px !important;
+     font-weight: 700 !important;
+}
+.fwk-mobile-home-h2{
+    font-size: 35px !important;
      font-weight: 700 !important;
 }
 .fwk-home-h3{
@@ -46,7 +54,22 @@ ul.box {
   .menu-vertical{
     transform: rotate(90deg);
   }
+  .menu_btn{
+    color: #fff !important;
+    background-color: #F84525 !important;
+    margin-top: 20px !important;
+}
 
+.mobile_menu_btn{
+    color: #fff !important;
+    background-color: #F84525 !important;
+    margin-top: 20px !important;
+    font-size: 10px !important;
+    height: 40px !important;
+}
+.short_text{
+    line-height: 0.6 !important;
+}
 
   /* li {
     text-indent: -1.5em;
@@ -64,12 +87,7 @@ ul.box {
 }
 
 
-.menu_btn{
-    color: #fff !important;
-    background-color: #F84525 !important;
-    margin-top: 20px !important;
 
-}
 
 /* Custom Styling */
 .app-logo{
