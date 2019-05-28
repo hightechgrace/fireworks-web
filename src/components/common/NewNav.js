@@ -81,13 +81,35 @@ export default class Nav extends Component {
                                         <a className="uk-offcanvas-close uk-margin black"  > <img src={close} width='30' /></a>
                                         <img src={icon} width='50' />
                                         <div className='uk-margin-xlarge'>
-                                        <ul className=" black uk-margin-large-left" data-uk-nav data-uk-scrollspy="cls: uk-animation-fade; target: li ; delay: 400; repeat: true">
-                                            <li ><a className="black mobile-header-txt short_text" href="#">Work</a></li>
-                                            <li ><a className="black mobile-header-txt short_text" href="/about">About</a></li>
-                                            <li ><a className="black mobile-header-txt short_text" href="contact">Contact</a></li>
-                                            <li ><a className="black mobile-header-txt short_text" href="#">Stories</a></li>
-                                        </ul>
-                                        <div className="uk-width-expand@m uk-margin-large-left" >
+                                            <ul className=" black uk-margin-large-left" data-uk-nav data-uk-scrollspy="cls: uk-animation-fade; target: li ; delay: 400; repeat: true">
+                                                <li ><a className="black mobile-header-txt short_text" href="#">Work</a></li>
+                                                <li ><a className="black mobile-header-txt short_text" href="/about">About</a></li>
+                                                <li ><a className="black mobile-header-txt short_text" href="contact">Contact</a></li>
+                                                <li ><a className="black mobile-header-txt short_text" href="#">Stories</a></li>
+                                            </ul>
+                                            <div className=" black uk-margin-large-left uk-margin-top">
+                                                <p className='uk-text-left black'>
+                                                    hello@fireworks.com.ng
+                                                </p>
+                                                <p className='uk-text-left black'>
+                                                    +234 8152 259 901
+                                                </p>
+                                                <p className='uk-text-left black'>
+                                                    Suite 1, 3rd Floor, Platinum Plaza,
+                                                <br />Gwarinpa Abuja.
+                                                </p>
+                                                <div className='uk-grid-small uk-text-center' data-uk-grid>
+                                                    <div><a href='https://www.facebook.com/FireworksHQTRS/' target='blank_' className='black uk-icon-link' uk-icon="facebook"></a></div>
+                                                    <div><a href='https://twitter.com/FireworksHQ' target='blank_' className='black uk-icon-link' uk-icon="twitter"></a></div>
+                                                    <div><a href='https://www.instagram.com/fireworkshq/' target='blank_' className='black uk-icon-link' uk-icon="instagram"></a></div>
+                                                    <div><a href='https://www.instagram.com/fireworkshq/' target='blank_' className='black uk-icon-link' uk-icon="linkedin"></a></div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            {/* <div className="uk-width-expand@m uk-margin-large-left" >
                                                 <div style={{ position: 'absolute', bottom: '150px' }} >
                                                     <div data-uk-scrollspy="cls: uk-animation-slide-bottom; target: p ; delay: 400; repeat: true">
                                                         <p className='uk-text-left black'>
@@ -108,9 +130,9 @@ export default class Nav extends Component {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
-                                        
+
 
 
                                         <div className="uk-margin-large-top " data-uk-grid>
@@ -165,7 +187,7 @@ export default class Nav extends Component {
                         </div>
                     </nav>
                 </div>
-            </div>
+            </div >
         )
     }
 }
