@@ -87,7 +87,7 @@ export default class Nav extends Component {
                                                 <li ><a className="black mobile-header-txt short_text" href="contact">Contact</a></li>
                                                 <li ><a className="black mobile-header-txt short_text" href="#">Stories</a></li>
                                             </ul>
-                                            <div className=" black uk-margin-large-left uk-margin-top">
+                                            <div className=" black uk-margin-large-left uk-margin-large-top">
                                                 <p className='uk-text-left black'>
                                                     hello@fireworks.com.ng
                                                 </p>
@@ -105,82 +105,7 @@ export default class Nav extends Component {
                                                     <div><a href='https://www.instagram.com/fireworkshq/' target='blank_' className='black uk-icon-link' uk-icon="linkedin"></a></div>
                                                 </div>
                                             </div>
-
-
-
-
-                                            {/* <div className="uk-width-expand@m uk-margin-large-left" >
-                                                <div style={{ position: 'absolute', bottom: '150px' }} >
-                                                    <div data-uk-scrollspy="cls: uk-animation-slide-bottom; target: p ; delay: 400; repeat: true">
-                                                        <p className='uk-text-left black'>
-                                                            hello@fireworks.com.ng
-                                                </p>
-                                                        <p className='uk-text-left black'>
-                                                            +234 8152 259 901
-                                                </p>
-                                                        <p className='uk-text-left black'>
-                                                            Suite 1, 3rd Floor, Platinum Plaza,
-                                                <br />Gwarinpa Abuja.
-                                                </p>
-                                                        <div className='uk-grid-small uk-text-center' data-uk-grid>
-                                                            <div><a href='https://www.facebook.com/FireworksHQTRS/' target='blank_' className='black uk-icon-link' uk-icon="facebook"></a></div>
-                                                            <div><a href='https://twitter.com/FireworksHQ' target='blank_' className='black uk-icon-link' uk-icon="twitter"></a></div>
-                                                            <div><a href='https://www.instagram.com/fireworkshq/' target='blank_' className='black uk-icon-link' uk-icon="instagram"></a></div>
-                                                            <div><a href='https://www.instagram.com/fireworkshq/' target='blank_' className='black uk-icon-link' uk-icon="linkedin"></a></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> */}
                                         </div>
-
-
-
-                                        <div className="uk-margin-large-top " data-uk-grid>
-                                            {/* <div className="" data-uk-grid data-uk-scrollspy="cls: uk-animation-fade; target: li ; delay: 200; repeat: true">
-                                                <ul className="uk-nav-primary uk-nav-parent-icon black" data-uk-nav>
-                                                    <li ><a className="black mobile-header-txt" href="#">Work</a></li>
-                                                    <li ><a className="black mobile-header-txt" href="/about">About</a></li>
-                                                    <li ><a className="black mobile-header-txt" href="contact">Contact</a></li>
-                                                    <li ><a className="black mobile-header-txt" href="#">Stories</a></li>
-                                                </ul>
-                                            </div> */}
-                                            {/* <div className="uk-width-1-5@m black uk-text-right uk-margin-large-left uk-text-bold ">
-                                                <p className='menu-vertical'>MENU</p></div> */}
-                                            {/* <div className="uk-width-1-1@m black " >
-                                                <div className="uk-child-width-1-3@m" data-uk-grid data-uk-scrollspy="cls: uk-animation-fade; target: li ; delay: 200; repeat: true">
-                                                    <ul className="uk-nav-primary uk-nav-parent-icon black" data-uk-nav>
-                                                        <li ><a className="black header-txt" href="#">Work</a></li>
-                                                        <li ><a className="black header-txt" href="/about">About</a></li>
-                                                        <li ><a className="black header-txt" href="contact">Contact</a></li>
-                                                        <li ><a className="black header-txt" href="#">Stories</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div> */}
-                                            {/* <div className="uk-width-expand@m" >
-                                                <div style={{ position: 'absolute', bottom: '150px' }} >
-                                                    <div data-uk-scrollspy="cls: uk-animation-slide-bottom; target: p ; delay: 400; repeat: true">
-                                                        <p className='uk-text-left black'>
-                                                            hello@fireworks.com.ng
-                                                </p>
-                                                        <p className='uk-text-left black'>
-                                                            +234 8152 259 901
-                                                </p>
-                                                        <p className='uk-text-left black'>
-                                                            Suite 1, 3rd Floor, Platinum Plaza,
-                                                <br />Gwarinpa Abuja.
-                                                </p>
-                                                        <div className='uk-grid-small uk-text-center' data-uk-grid>
-                                                            <div><a href='https://www.facebook.com/FireworksHQTRS/' target='blank_' className='black uk-icon-link' uk-icon="facebook"></a></div>
-                                                            <div><a href='https://twitter.com/FireworksHQ' target='blank_' className='black uk-icon-link' uk-icon="twitter"></a></div>
-                                                            <div><a href='https://www.instagram.com/fireworkshq/' target='blank_' className='black uk-icon-link' uk-icon="instagram"></a></div>
-                                                            <div><a href='https://www.instagram.com/fireworkshq/' target='blank_' className='black uk-icon-link' uk-icon="linkedin"></a></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> */}
-                                        </div>
-
-
                                     </div>
                                 </div>
                             </ul>

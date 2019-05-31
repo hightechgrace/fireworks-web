@@ -23,9 +23,17 @@
     font-size: 40px !important;
      font-weight: 700 !important;
 }
+.fwk-mobile-home-h3{
+    font-size: 30px !important;
+     font-weight: 700 !important;
+}
 
 .fwk-home-h4{
     font-size: 25px !important;
+     font-weight: 700 !important;
+}
+.fwk-mobile-home-h4{
+    font-size: 20px !important;
      font-weight: 700 !important;
 }
 
