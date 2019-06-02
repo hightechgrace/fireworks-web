@@ -8,7 +8,7 @@ class Fireworksu extends Component {
     render() {
         return (
             <div>
-                <Nav/>
+                <Nav />
 
                 <section className='uk-visible@m uk-section-white uk-section-small fwk-home-section' style={{ paddingRight: '0' }}>
                     <div className="uk-container uk-container-xlarge" style={{ paddingRight: '0', marginRight: '0' }}>
@@ -27,7 +27,7 @@ class Fireworksu extends Component {
                     <div className="uk-container uk-container-xlarge" style={{ paddingRight: '0', marginRight: '0' }}>
                         <div className="uk-flex-middle" data-uk-grid>
                             <div className="uk-width-1-3@m uk-flex-first">
-                                <div><h6 style={{ letterSpacing: '5px'}}>OUR ARMS</h6></div>
+                                <div><h6 style={{ letterSpacing: '5px' }}>OUR ARMS</h6></div>
                                 <h1 className='mobile-header-txt'>FireworksU</h1>
                             </div>
                             <div className="uk-width-2-3@m uk-flex-first">
@@ -75,7 +75,7 @@ class Fireworksu extends Component {
                                 <h2>Arming individuals and organisations with
                                     knowledge and strategies to grow world class brands </h2>
 
-                                    <p>More Text Here
+                                <p>More Text Here
                                     </p>
                             </div>
                         </div>
@@ -94,15 +94,14 @@ class Fireworksu extends Component {
                         </div>
                     </div>
                 </section>
-                
+
                 <section className='uk-visible@m uk-section-secondary uk-section-xlarge fwk-home-section' style={{ backgroundColor: '#171717' }}>
                     <div className="uk-container uk-container-xlarge" >
                         <div><h6 style={{ letterSpacing: '5px' }}>WORK WITH US</h6></div>
                         <h1 className='header-txt uk-margin-large-left'>Ready to launch an idea?</h1>
                         <h4 className='uk-margin-large-left'>We’re excited to build amazing things with you!<br />
                             Call us on +234 8152 259 901 or say hello@fireworks.com.ng</h4>
-                        <button class="uk-margin-large-left  uk-button uk-button-primary">Let's Talk</button>
-                    </div>
+                        <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>                    </div>
                 </section>
                 <section className='uk-hidden@m uk-section-secondary uk-section-xlarge' style={{ backgroundColor: '#171717' }}>
                     <div className="uk-container uk-container-xlarge" >
@@ -110,8 +109,7 @@ class Fireworksu extends Component {
                         <h1 className='header-txt uk-margin-large-left'>Ready to launch an idea?</h1>
                         <h4 className='uk-margin-large-left'>We’re excited to build amazing things with you!<br />
                             Call us on +234 8152 259 901 or say hello@fireworks.com.ng</h4>
-                        <button class="uk-margin-large-left  uk-button uk-button-primary">Let's Talk</button>
-                    </div>
+                        <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>                    </div>
                 </section>
                 <Footer />
             </div>

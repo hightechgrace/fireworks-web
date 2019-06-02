@@ -474,7 +474,7 @@ and strategies to grow world class brands
                 <p>We’re excited to build amazing things with you!<br />
                   Call us on +234 8152 259 901 or <br />
                   say hello@fireworks.com.ng</p>
-                <button className="uk-button uk-button-primary">Let's Talk</button>
+                <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>
               </div>
             </div>
             <hr />
@@ -490,7 +490,7 @@ and strategies to grow world class brands
                 <p>We’re excited to build amazing things with you!<br />
                   Call us on +234 8152 259 901 or <br />
                   say hello@fireworks.com.ng</p>
-                <button className="uk-button uk-button-primary">Let's Talk</button>
+                <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>
               </div>
             </div>
             <hr />

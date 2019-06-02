@@ -192,7 +192,7 @@ deliver unique live experiences to your audience.
                         <h1 className='header-txt uk-margin-large-left'>Ready to launch an idea?</h1>
                         <h4 className='uk-margin-large-left'>We’re excited to build amazing things with you!<br />
                             Call us on +234 8152 259 901 or say hello@fireworks.com.ng</h4>
-                        <button class="uk-margin-large-left  uk-button uk-button-primary">Let's Talk</button>
+                            <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>
                     </div>
                 </section>
                 <section className='uk-hidden@m uk-section-secondary uk-section-xlarge' style={{ backgroundColor: '#171717' }}>
@@ -201,7 +201,7 @@ deliver unique live experiences to your audience.
                         <h1 className='header-txt uk-margin-large-left'>Ready to launch an idea?</h1>
                         <h4 className='uk-margin-large-left'>We’re excited to build amazing things with you!<br />
                             Call us on +234 8152 259 901 or say hello@fireworks.com.ng</h4>
-                        <button class="uk-margin-large-left  uk-button uk-button-primary">Let's Talk</button>
+                            <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>
                     </div>
                 </section>
                 <Footer />
