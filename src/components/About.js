@@ -18,11 +18,9 @@ class About extends Component {
                         <div className="uk-flex-middle" data-uk-grid>
                             <div className="uk-width-2-3@m uk-flex-first ">
                                 <div><h6 style={{ letterSpacing: '5px', marginLeft: '-50px' }}>WHO WE ARE</h6></div>
-                                <h1 className='header-txt'>An agile team <br />
-                                    creating meaningful <br />
-                                    experiences.</h1>
-                                <p>Building awesomeness right in the<br />
-                                    capital city of Abuja. </p>
+                                <h1 className='header-txt'>Shaping Africa’s future through storytelling and technology</h1>
+                                {/* <p>Building awesomeness right in the<br />
+                                    capital city of Abuja. </p> */}
                             </div>
                             <div className="uk-width-1-3@m uk-flex-first">
                                 <img src={about_elements} alt="Image" />
@@ -35,11 +33,9 @@ class About extends Component {
                         <div className="uk-flex-middle" data-uk-grid>
                             <div className="uk-width-2-3@m uk-flex-first ">
                                 <div><h6 style={{ letterSpacing: '5px'}}>WHO WE ARE</h6></div>
-                                <h1 className='mobile-header-txt'>An agile team <br />
-                                    creating meaningful <br />
-                                    experiences.</h1>
-                                <p>Building awesomeness right in the<br />
-                                    capital city of Abuja. </p>
+                                <h1 className='mobile-header-txt'>Shaping Africa’s future through storytelling and technology</h1>
+                                {/* <p>Building awesomeness right in the<br />
+                                    capital city of Abuja. </p> */}
                             </div>
                             <div className="uk-width-1-3@m uk-flex-first">
                                 <img src={about_elements} alt="Image" />

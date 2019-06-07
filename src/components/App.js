@@ -24,12 +24,11 @@ class App extends Component {
               <div className="uk-flex-middle" data-uk-grid>
                 <div className="uk-width-1-3@m uk-flex-first " style={{ position: 'relative' }}>
                   <div style={{ width: '750px' }}>
-                    <p className='uk-margin-large-bottom ' style={{ marginLeft: '-50px' }}>WE ARE FIREWORKS</p>
+                    {/* <p className='uk-margin-large-bottom ' style={{ marginLeft: '-50px' }}>WE ARE FIREWORKS</p> */}
                     <h1 className='header-txt'>
                       Shaping Africa’s Future <br /> Through Storytelling <br /> and Technology
                     </h1>
-                    <p className='uk-margin-large-top'>We are a Creative Agency, A Production Studio and <br />
-                      We build Authoritative and Influential Media Brands</p>
+                    <p className='uk-margin-large-top'>A Production Studio that builds <br/>Authoritative and Influential Media Brands</p>
                     <a className='uk-margin-xlarge-top' href=''>Know Us</a>
                   </div>
                 </div>
@@ -44,12 +43,11 @@ class App extends Component {
           <Nav />
           <div className="uk-container uk-container-xlarge uk-margin-left uk-margin-right" >
             <div className='uk-position-center uk-width-4-5 uk-margin-large-top'>
-              <div><h6 style={{ letterSpacing: '5px' }}>WE ARE FIREWORKS</h6></div>
+              {/* <div><h6 style={{ letterSpacing: '5px' }}>WE ARE FIREWORKS</h6></div> */}
               <h1 className='mobile-header-txt'>
                 Shaping Africa’s Future Through Storytelling and Technology
               </h1>
-              <p className='uk-margin-large-top'>We are a Creative Agency, A Production Studio and <br />
-                We build Authoritative and Influential Media Brands</p>
+              <p className='uk-margin-large-top'>A Production Studio that builds <br />Authoritative and Influential Media Brands</p>
               <a className='uk-margin-xlarge-top' href=''>Know Us</a>
             </div>
           </div>
@@ -57,17 +55,13 @@ class App extends Component {
         <section className='uk-visible@m uk-section-white uk-section-small fwk-home-section' >
           <div className="uk-container uk-container-xlarge" >
             <h2 className='uk-margin-large-top fwk-home-h2'>About Fireworks.</h2>
-            <p className='uk-margin-medium-top'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p className='uk-margin-medium-top'>Fireworks is a digital media company that aims to be the prime source of high quality content that spreads values of truth, creativity, excellence and passion across Africa; helping shape the continent’s future</p>
           </div>
         </section>
         <section className='uk-hidden@m uk-section-white uk-section-small' >
           <div className="uk-container uk-container-xlarge" >
             <h2 className='uk-margin-large-top fwk-mobile-home-h2'>About Fireworks.</h2>
-            <p className='uk-margin-medium-top'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p className='uk-margin-medium-top'>Fireworks is a digital media company that aims to be the prime source of high quality content that spreads values of truth, creativity, excellence and passion across Africa; helping shape the continent’s future</p>
           </div>
         </section>
         {/* <section className='uk-section-white uk-section-small fwk-home-section' >
@@ -110,8 +104,7 @@ class App extends Component {
                   </div>
                   <div className="uk-width-expand@m" >
                     <div style={{ position: 'absolute', bottom: '10px' }} >
-                      <p className='uk-text-left'>A creative agency that helps brands and businesses get the attention they deserve by combining
-                        creativity, strategy and innovation. </p>
+                      <p className='uk-text-left'>By building authoritative and authentic media brands (Young, Yanga & Toritori) we hope to be one of the leading influential and impactful brands on the continent. Our creative agency also helps brands and business connect and gain attention by telling and amplifying their stories. We also have a creatively-driven production studio dedicated to telling stories via film & tv, documentaries, photography and more.</p>
                       <a href='/creative' className='uk-text-left'>View more</a>
                     </div>
                   </div>
@@ -134,8 +127,7 @@ class App extends Component {
                   </div>
                   <div className="uk-width-1-1@m uk-margin-top" >
                     <div>
-                      <p className='uk-text-left'>A creative agency that helps brands and businesses get the attention they deserve by combining
-                        creativity, strategy and innovation. </p>
+                      <p className='uk-text-left'>By building authoritative and authentic media brands (Young, Yanga & Toritori) we hope to be one of the leading influential and impactful brands on the continent. Our creative agency also helps brands and business connect and gain attention by telling and amplifying their stories. We also have a creatively-driven production studio dedicated to telling stories via film & tv, documentaries, photography and more. </p>
                       <a href='/creative' className='uk-text-left'>View more</a>
                     </div>
                   </div>
