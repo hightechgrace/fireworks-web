@@ -28,7 +28,7 @@ class App extends Component {
                     <h1 className='header-txt'>
                       Shaping Africa’s Future <br /> Through Storytelling <br /> and Technology
                     </h1>
-                    <p className='uk-margin-large-top'>A Production Studio that builds <br/>Authoritative and Influential Media Brands</p>
+                    <p className='uk-margin-large-top'>A Production Studio that builds <br />Authoritative and Influential Media Brands</p>
                     <a className='uk-margin-xlarge-top' href=''>Know Us</a>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ and strategies to grow world class brands
         </section>
         <section className=' uk-hidden@m uk-section-white uk-section-small  uk-margin-large-top' >
           <div className="uk-container uk-container-xlarge" >
-          <h2 className='uk-margin-large-top fwk-mobile-home-h2'>Stories & Insights.</h2>
+            <h2 className='uk-margin-large-top fwk-mobile-home-h2'>Stories & Insights.</h2>
 
             <p className='uk-margin-medium-top'>Stories from the people at Fireworks</p>
             <div className="uk-text-left" data-uk-grid>

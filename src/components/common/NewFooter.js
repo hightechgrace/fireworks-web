@@ -19,7 +19,7 @@ export default class Footer extends Component {
             </div>
           </div>
           <div class="uk-flex uk-flex-center " style={{ marginTop: '-50px' }}>
-            <div className="uk-width-2-3 uk-child-width-1-5@m uk-text-center uk-grid-small " data-uk-grid>
+            <div className="uk-width-3-4 uk-child-width-1-5@m uk-text-center uk-grid-small " data-uk-grid>
               <img src={crtv} />
               <img src={studio} />
               <img src={tech} />
@@ -27,7 +27,7 @@ export default class Footer extends Component {
               <img src={firex} style={{ width: '100px' }} />
             </div>
           </div>
-          <div class="uk-flex uk-flex-center " style={{ marginTop: '-40px' }}>
+          <div class="uk-flex uk-flex-center " style={{ marginTop: '0px' }}>
             <div className="uk-width-1-3 uk-child-width-1-3@m uk-text-center uk-xgrid-large " data-uk-grid>
               <img src={young} />
               <img src={yanga} />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './common/Nav'
-import Footer from './common/Footer'
+import Footer from './common/NewFooter'
 import bar from '../img/bar.svg'
 
 
@@ -16,16 +16,44 @@ class Contact extends Component {
 
 
                             <h1 className='uk-text-left uk-heading-primary'>An Interactive Gathering of <br />Creatives & Entrepreneurs </h1><br />
-                            <p>Friday, April 5, 2019 5:00 PM – 7:00 PM </p>
+                            <p>Friday, August 2, 2019 5:00 PM – 7:00 PM </p>
                             <br />
-                            <a href='https://www.eventbrite.com/e/campfire-an-interactive-gathering-of-creatives-entrepreneurs-tickets-59762325725' target='blank_' data-uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay:500" className="uk-text-left uk-margin-top uk-button  uk-text-capitalize black-btn red" data-uk-icon="icon: arrow-right; ratio: 1.6"><span className='white'>Register</span>  </a>
-                            
-                            {/* <h3>we would love to hear from you<br />
-
-                                say <a className='underline red' href='https://www.eventbrite.com/e/campfire-an-interactive-gathering-of-creatives-entrepreneurs-tickets-59762325725'>hello@fireworks.com.ng</a>  <br />or if you want to speak with us on phone call <span className='underline red'>+234 8152 259 901</span></h3> */}
+                            <a href='https://www.eventbrite.com/e/campfire-an-interactive-gathering-of-creatives-entrepreneurs-tickets-66655629783' target='blank_' className="uk-button uk-button-secondary">Register</a>
                         </div>
                     </div>
                 </div>
+                <section className='uk-visible@m uk-section-secondary uk-section-large fwk-home-section' style={{ backgroundColor: '#000000' }}>
+          <div className="uk-container uk-container-xlarge" >
+            <div className="uk-text-left uk-margin-large-bottom" data-uk-grid>
+              <div className="uk-width-1-2@m">
+                <h2>Ready to launch an idea?</h2>
+              </div>
+              <div className="uk-width-1-2@m">
+                <p>We’re excited to build amazing things with you!<br />
+                  Call us on +234 8152 259 901 or <br />
+                  say hello@fireworks.com.ng</p>
+                <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </section>
+        <section className='uk-hidden@m uk-section-secondary uk-section-large ' style={{ backgroundColor: '#000000' }}>
+          <div className="uk-container uk-container-xlarge" >
+            <div className="uk-text-left uk-margin-large-bottom" data-uk-grid>
+              <div className="uk-width-1-2@m">
+                <h2>Ready to launch an idea?</h2>
+              </div>
+              <div className="uk-width-1-2@m">
+                <p>We’re excited to build amazing things with you!<br />
+                  Call us on +234 8152 259 901 or <br />
+                  say hello@fireworks.com.ng</p>
+                <a href='/contact' className="uk-button uk-button-primary">Let's Talk</a>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </section>
                 <Footer />
             </div>
         )
