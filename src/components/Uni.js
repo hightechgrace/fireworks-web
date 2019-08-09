@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Nav from './common/Nav'
 import Footer from './common/NewFooter'
 import fireworksu from '../img/fireworksu_bg.png'
+import { ReactTypeformEmbed } from 'react-typeform-embed';
+
 
 
 class Uni extends Component {
@@ -44,7 +46,15 @@ class Uni extends Component {
                             <div className="uk-width-1-1@m uk-flex-first uk-padding-large uk-padding-remove-vertical uk-padding-remove-right" >
                                 <h2>Arming individuals and organisations with
                                     knowledge and strategies to grow world class brands </h2>
-                                    <iframe src="https://fireworks.typeform.com/to/HhxYEK" height="1080" width="100%"></iframe>
+                                {/* <a href='https://fireworks.typeform.com/to/HhxYEK' target='blank_'>Register for the Creative Journey</a> */}
+                                <br/>
+                                <a href='https://fireworks.typeform.com/to/HhxYEK' target='blank_'  className='menu_btn uk-padding uk-margin-xlarge'>Register for the Creative Journey Course</a>
+<br/>
+<br/>
+<br/>
+<br/>
+                                    {/* <iframe src="https://fireworks.typeform.com/to/HhxYEK" height="1080" width="100%"></iframe> */}
+                                    
 
                             </div>
                         </div>
@@ -75,10 +85,17 @@ class Uni extends Component {
                             <div className="uk-width-3-5@m uk-flex-first uk-padding-large uk-padding-remove-vertical uk-padding-remove-right" >
                                 <h2>Arming individuals and organisations with
                                     knowledge and strategies to grow world class brands </h2>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                <a href='https://fireworks.typeform.com/to/HhxYEK' target='blank_'  className='menu_btn uk-padding uk-margin-xlarge'>Register for the Creative Journey Course</a>
+
 
                                 {/* <p>More Text Here
                                     </p> */}
-                <iframe src="https://fireworks.typeform.com/to/HhxYEK" height="700" width="100%"></iframe>
+                                    {/* <ReactTypeformEmbed  url="https://fireworks.typeform.com/to/HhxYEK" />; */}
+
+                {/* <iframe src="https://fireworks.typeform.com/to/HhxYEK" height="700" width="100%"></iframe> */}
 
                             </div>
                         </div>
