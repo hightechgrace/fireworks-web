@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Video from './components/Video';
 import Tech from './components/Tech';
 import Studio from './components/Studio';
+import Uni from './components/Uni';
 import About from './components/About';
 import Contact from './components/Contact';
 import Work from './components/Work';
@@ -45,6 +46,7 @@ const Fireworks = () => {
                 <Route exact path="/studio" component={Studio} />
                 <Route exact path="/video/:id" component={Video} />
                 <Route exact path="/about" component={About} />
+                <Route exact path="/uni" component={Uni} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/work" component={Work} />
                 <Route exact path="/young" component={YoungHome} />
