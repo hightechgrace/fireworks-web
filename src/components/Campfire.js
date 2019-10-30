@@ -16,9 +16,9 @@ class Contact extends Component {
 
 
                             <h1 className='uk-text-left uk-heading-primary'>An Interactive Gathering of <br />Creatives & Entrepreneurs </h1><br />
-                            <p>Friday, September 6, 2019 5:00 PM – 7:00 PM </p>
+                            <p>Fri, November 1, 2019,  5:00 PM – 7:00 PM </p>
                             <br />
-                            <a href='https://www.eventbrite.com/e/campfire-an-interactive-gathering-of-creatives-and-entrepreneurs-tickets-71215979913' target='blank_' className="uk-button uk-button-secondary">Register</a>
+                            <a href='https://www.eventbrite.com/e/campfire-an-interactive-gathering-of-creative-entrepreneurs-tickets-79196790733?aff=affiliate1' target='blank_' className="uk-button uk-button-secondary">Register</a>
                         </div>
                     </div>
                 </div>
